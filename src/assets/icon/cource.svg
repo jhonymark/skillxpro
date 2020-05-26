@@ -1,0 +1,7 @@
+<svg id="Icon_3" data-name="Icon 3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Path" width="24" height="24" fill="#888" opacity="0"/>
+  <g id="video-playlist" transform="translate(3 4)">
+    <path id="Path-2" data-name="Path" d="M13.5,1.5H0V.75A.75.75,0,0,1,.75,0h12a.75.75,0,0,1,.75.75Z" transform="translate(2.25)" fill="#1c1c1c"/>
+    <path id="Shape" d="M.75,13.5A.75.75,0,0,1,0,12.75V.75A.75.75,0,0,1,.75,0h16.5A.75.75,0,0,1,18,.75v12a.75.75,0,0,1-.75.75Z" transform="translate(0 3)" fill="#1c1c1c"/>
+  </g>
+</svg>

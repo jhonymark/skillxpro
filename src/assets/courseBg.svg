@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="263" height="138" viewBox="0 0 263 138">
+    <g fill="none">
+        <path fill="#E6E6E6" d="M182 32H236V130H182z"/>
+        <path fill="#FFF" d="M187 125L231 125 231 37 187 37z"/>
+        <rect width="13" height="1" x="204" y="56" fill="#E6E6E6" rx=".5"/>
+        <rect width="23" height="1" x="204" y="60" fill="#E6E6E6" rx=".5"/>
+        <rect width="23" height="1" x="204" y="64" fill="#E6E6E6" rx=".5"/>
+        <rect width="9" height="9" x="192" y="56" fill="#E6E6E6" rx="2"/>
+        <rect width="13" height="1" x="204" y="76" fill="#E6E6E6" rx=".5"/>
+        <rect width="23" height="1" x="204" y="81" fill="#E6E6E6" rx=".5"/>
+        <rect width="23" height="1" x="204" y="85" fill="#E6E6E6" rx=".5"/>
+        <rect width="9" height="9" x="192" y="77" fill="#E6E6E6" rx="2"/>
+        <rect width="13" height="1" x="204" y="97" fill="#E6E6E6" rx=".5"/>
+        <rect width="23" height="1" x="204" y="101" fill="#E6E6E6" rx=".5"/>
+        <rect width="23" height="1" x="204" y="105" fill="#E6E6E6" rx=".5"/>
+        <rect width="9" height="9" x="192" y="97" fill="#E6E6E6" rx="2"/>
+        <path fill="#E6E6E6" d="M31 32H85V130H31z"/>
+        <path fill="#FFF" d="M37 125L81 125 81 37 37 37z"/>
+        <rect width="13" height="1" x="53" y="56" fill="#E6E6E6" rx=".5"/>
+        <rect width="23" height="1" x="53" y="60" fill="#E6E6E6" rx=".5"/>
+        <rect width="23" height="1" x="53" y="64" fill="#E6E6E6" rx=".5"/>
+        <rect width="9" height="9" x="42" y="56" fill="#E6E6E6" rx="2"/>
+        <rect width="13" height="1" x="53" y="76" fill="#E6E6E6" rx=".5"/>
+        <rect width="23" height="1" x="53" y="81" fill="#E6E6E6" rx=".5"/>
+        <rect width="23" height="1" x="53" y="85" fill="#E6E6E6" rx=".5"/>
+        <rect width="9" height="9" x="42" y="77" fill="#E6E6E6" rx="2"/>
+        <rect width="13" height="1" x="53" y="97" fill="#E6E6E6" rx=".5"/>
+        <rect width="23" height="1" x="53" y="101" fill="#E6E6E6" rx=".5"/>
+        <rect width="23" height="1" x="53" y="105" fill="#E6E6E6" rx=".5"/>
+        <rect width="9" height="9" x="42" y="97" fill="#E6E6E6" rx="2"/>
+        <ellipse cx="131.5" cy="132.5" fill="#E6E6E6" rx="131.5" ry="5.5"/>
+        <rect width="73" height="134" x="97" fill="#1C1C1C" rx="2"/>
+        <path fill="#FFF" d="M100 130L167 130 167 3 100 3z"/>
+        <rect width="17" height="2" x="127" y="32" fill="#98D8F3" rx="1"/>
+        <rect width="30" height="2" x="127" y="38" fill="#E6E6E6" rx="1"/>
+        <rect width="30" height="2" x="127" y="44" fill="#E6E6E6" rx="1"/>
+        <rect width="13" height="13" x="110" y="33" fill="#98D8F3" rx="2"/>
+        <rect width="17" height="2" x="127" y="60" fill="#98D8F3" rx="1"/>
+        <rect width="30" height="2" x="127" y="66" fill="#E6E6E6" rx="1"/>
+        <rect width="30" height="2" x="127" y="72" fill="#E6E6E6" rx="1"/>
+        <rect width="13" height="13" x="110" y="60" fill="#98D8F3" rx="2"/>
+        <rect width="17" height="2" x="127" y="88" fill="#98D8F3" rx="1"/>
+        <rect width="30" height="2" x="127" y="93" fill="#E6E6E6" rx="1"/>
+        <rect width="30" height="2" x="127" y="99" fill="#E6E6E6" rx="1"/>
+        <rect width="13" height="13" x="110" y="88" fill="#98D8F3" rx="2"/>
+    </g>
+</svg>

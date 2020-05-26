@@ -1,0 +1,36 @@
+<ion-content>
+    <div class="container">
+        <img class="homeBg" src="../../assets/homeBg.svg">
+
+        <ion-card>
+            <p class="ques">Who are you?</p>
+            <p class="detail">Please Select one of the option to login</p>
+            <div class="options">
+                <div class="selectorBlock">
+                    <div id="selectorS" class="selector " (click)="addSelectorS()"></div>
+                    <p>Student</p>
+                </div>
+                <div class="selectorBlock">
+                    <div id="selectorR" class="selector" (click)="addSelectorR()"></div>
+                    <p>Recruiter</p>
+                </div>
+            </div>
+        </ion-card>
+        <ion-card>
+            <p class="login">Login</p>
+            <ion-input placeholder="Email"></ion-input>
+            <ion-input placeholder="Password" type="password"></ion-input>
+            <div class="rememberForgot">
+                <div class="rememberBlock">
+                    <ion-checkbox></ion-checkbox>
+                    <p>Remember Me</p>
+                </div>
+                <p class="forgotPass">Forgot Password?</p>
+            </div>
+            <ion-button [routerLink]="['/home']">Login</ion-button>
+            <p class="orTag">OR</p>
+            <ion-button class="btnOutline" fill="outline"><img src="../../assets/icon/google.svg"> Login with Google </ion-button>
+            <p class="signup">New to SkillxPro? <span [routerLink]="['/register']">Sign</span> up here</p>
+        </ion-card>
+    </div>
+</ion-content>

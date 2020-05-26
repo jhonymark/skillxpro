@@ -1,0 +1,200 @@
+ion-content {
+    --padding-bottom: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container {
+    padding: 16px;
+    width: 100%;
+    ion-searchbar {
+        --box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        padding: 0px;
+        font-family: "Rubik";
+        --icon-color: #7A7A7A;
+    }
+    .john {
+        font-family: "RubikMedium";
+        margin-top: 25px;
+        margin-bottom: 20px;
+        font-size: 22px;
+        color: #1C1C1C;
+    }
+    .cardTitle {
+        margin-bottom: 5px;
+        color: #1C1C1C;
+    }
+    ion-card {
+        display: flex;
+        justify-content: flex-start;
+        padding: 8px;
+        margin: 0px;
+        width: fit-content;
+        .image {
+            margin-right: 8px;
+            width: 190px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .cardContent {
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            p {
+                margin: 0;
+            }
+            .contentBg {
+                background-color: #ECEBFC;
+                width: fit-content;
+                padding: 5px 15px;
+                border-radius: 20px;
+                font-size: 12px;
+            }
+            .title {
+                font-size: 16px;
+                font-family: "";
+                margin-top: 3px;
+                margin-bottom: 5px;
+            }
+            .address {
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+        }
+        .progress {
+            width: 100%;
+            .progressBar {
+                width: 56%;
+                border: solid 2px #98D8F3;
+                border-radius: 20px;
+                background-color: #98D8F3;
+            }
+        }
+    }
+    ion-segment {
+        margin-top: 20px;
+        margin-right: 8px;
+        margin-bottom: 15px;
+        ion-segment-button {
+            margin-left: 8px;
+            margin-right: 8px;
+            --padding-start: 0;
+            --padding-end: 0;
+            ion-label {
+                margin-left: 0px;
+            }
+        }
+        // ion-segment-button:first-child {
+        //     margin-left: 0px !important;
+        // }
+    }
+    .cardContainer {
+        display: flex;
+        margin-top: 10px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        position: relative;
+        left: -16px;
+        right: -26px;
+        width: calc(100% + 16px);
+        padding-left: 12px;
+        padding-bottom: 20px;
+        .cardBlock {
+            display: flex;
+            flex-direction: column;
+            width: 248px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            margin-left: 5px;
+            margin-right: 15px;
+            background-color: white;
+            img {
+                max-width: none !important;
+            }
+            p {
+                margin: 0;
+            }
+            .cat {
+                position: relative;
+                top: -40px;
+                left: 10px;
+                background-color: #ECEBFC;
+                padding: 4px 10px;
+                width: fit-content;
+                border-radius: 20px;
+                font-size: 14px;
+                margin-bottom: -30px;
+            }
+            .cardTitle {
+                font-size: 16px;
+                font-family: "RubikMedium";
+                margin-top: 10px;
+                margin-left: 8px;
+                line-height: 22px;
+                white-space: pre-wrap;
+            }
+            .desc {
+                margin-left: 8px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+                margin-right: 3px;
+                font-size: 14px;
+                white-space: pre-wrap;
+            }
+        }
+    }
+    .catHeading {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 16px;
+        margin-bottom: 10px;
+        p {
+            margin: 0px
+        }
+        .viewAll {
+            color: #98D8F3;
+        }
+    }
+    .catContainer {
+        display: flex;
+        padding-bottom: 20px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        .cardBlock {
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            width: 120px;
+            height: 120px;
+            display: flex;
+            flex-direction: column;
+            margin-right: 15px;
+            position: relative;
+            .image {
+                width: 120px;
+                height: 120px;
+                border-radius: 10px;
+                overflow: hidden;
+                img {
+                    max-width: none;
+                    height: 110%;
+                    width: 110%;
+                    margin: -5px
+                }
+            }
+            p {
+                margin: 0px;
+                position: relative;
+                z-index: 999;
+                top: -60px;
+                margin-left: 5px;
+                color: white;
+                font-family: "RubikMedium";
+                margin-bottom: -50px;
+                white-space: pre-wrap;
+            }
+        }
+    }
+}

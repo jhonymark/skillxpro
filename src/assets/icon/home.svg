@@ -1,0 +1,11 @@
+<svg id="Icon_1" data-name="Icon 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="home_-_material" data-name="home - material" d="M7.968,17.016H3V9H0L9.984,0l9.984,9h-3v8.016H12v-6H7.968Z" transform="translate(0.016 0.6)" fill="#1c1c1c"/>
+    </clipPath>
+  </defs>
+  <rect id="Path" width="24" height="24" fill="#888" opacity="0"/>
+  <g id="Group" transform="translate(2 3)">
+    <path id="home_-_material-2" data-name="home - material" d="M7.968,17.016H3V9H0L9.984,0l9.984,9h-3v8.016H12v-6H7.968Z" transform="translate(0.016 0.6)" fill="#1c1c1c"/>
+  </g>
+</svg>

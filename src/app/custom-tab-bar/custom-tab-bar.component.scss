@@ -1,0 +1,43 @@
+.tabBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fff;
+    height: 70px;
+    width: 100%;
+    padding: 22px 0;
+    box-shadow: 1px -1px 8px 0px #a0a4bc;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    .tabBlock {
+        height: 34px;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+            height: 32px;
+        }
+        p {
+            color: #2b0055;
+            text-align: center;
+            margin: 0;
+            margin-top: 3px;
+            font-size: 12;
+        }
+    }
+}
+
+.hideBlock {
+    display: none;
+}
+
+@media screen and (min-width: 480px) {
+    .tabBar {
+        width: 67%;
+        margin-left: 16%;
+    }
+}

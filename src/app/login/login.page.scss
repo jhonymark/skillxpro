@@ -1,0 +1,123 @@
+.homeBg {
+    max-width: none;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+ion-card {
+    padding: 10px;
+    .ques {
+        font-size: 20px;
+        font-family: "RubikMedium";
+        color: #1c1c1c;
+    }
+    .detail {
+        font-family: "Rubik";
+    }
+    .options {
+        display: flex;
+        .selectorBlock {
+            display: flex;
+            align-items: center;
+            margin-right: 25px;
+            margin-left: 5px;
+            .selector {
+                border-radius: 100px;
+                width: 20px;
+                height: 20px;
+                border: solid 2px #e7e7e7;
+                margin-right: 5px;
+            }
+            p {
+                font-family: "RubikMedium";
+                color: #1c1c1c;
+            }
+            .selectorSelected {
+                border: solid 6px #98d8f3;
+            }
+        }
+    }
+}
+
+ion-card {
+    padding: 15px;
+    .login {
+        font-family: "RubikBold";
+        font-size: 34px;
+        color: #1c1c1c;
+        margin-top: 5px;
+    }
+    ion-input {
+        border: solid 1px #e7e7e7;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        --padding-start: 15px;
+        --placeholder-color: #1c1c1c;
+        --placeholder-font-weight: 800;
+        font-size: 17px;
+    }
+    .rememberForgot {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .rememberBlock {
+            display: flex;
+            align-items: center;
+            ion-checkbox {
+                --border-color: #e7e7e7;
+                --size: 16px;
+                margin-top: -1px;
+            }
+            p {
+                margin-left: 5px;
+                font-size: 14px;
+            }
+        }
+        .forgotPass {
+            text-decoration: underline;
+            color: #98d8f3;
+            font-size: 14px;
+        }
+    }
+    ion-button {
+        --background: #98d8f3;
+        width: 100%;
+        color: #1c1c1c;
+        --box-shadow: none;
+        font-family: "RubikBold";
+        --padding-top: 1px;
+        img {
+            margin-right: 10px;
+            margin-top: -2px;
+            width: 15px;
+            height: 15px;
+        }
+    }
+    .orTag {
+        text-align: center;
+        font-family: "RubikMedium";
+    }
+    .btnOutline {
+        --background: white;
+        --border-color: #1c1c1c;
+    }
+    .signup {
+        text-align: center;
+        font-family: "RubikMedium";
+        span {
+            text-decoration: underline;
+            font-family: "RubikMedium";
+        }
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+        width: 40% !important;
+        display: block !important;
+        margin: 0 auto !important;
+    }
+}

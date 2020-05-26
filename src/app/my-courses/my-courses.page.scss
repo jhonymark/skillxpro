@@ -1,0 +1,115 @@
+.header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    .topicHeading {
+        font-family: "SourceSansBold";
+        font-size: 24px;
+        color: #1c1c1c;
+        margin: 0;
+    }
+}
+
+.bodyContainer {
+    ion-segment {
+        background-color: white;
+        margin-top: 2px;
+        margin-right: 8px;
+        margin-bottom: 15px;
+        width: 100%;
+        ion-segment-button {
+            margin-left: 8px;
+            margin-right: 8px;
+            --padding-start: 0;
+            --padding-end: 0;
+            ion-label {
+                margin-left: 0px;
+            }
+        }
+        // ion-segment-button:first-child {
+        //     margin-left: 0px !important;
+        // }
+    }
+    .bottomCards {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 8px;
+        .bottomCard {
+            display: flex;
+            justify-content: flex-start;
+            padding: 8px;
+            padding-bottom: 20px;
+            margin: 0px;
+            width: fit-content;
+            margin-bottom: 10px;
+            .image {
+                margin-right: 8px;
+                width: 120px;
+                position: relative;
+                z-index: 998;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+                .percentage {
+                    margin: 0;
+                    position: absolute;
+                    bottom: -16px;
+                    left: 5px;
+                    font-size: 10px;
+                    color: #1c1c1c;
+                }
+            }
+            .cardContent {
+                display: flex;
+                flex-direction: column;
+                background-color: white;
+                p {
+                    margin: 0;
+                }
+                .contentBg {
+                    background-color: #ECEBFC;
+                    width: fit-content;
+                    padding: 5px 10px;
+                    border-radius: 20px;
+                    font-size: 10px;
+                    font-family: "RubikMedium";
+                    color: #1c1c1c;
+                }
+                .title {
+                    font-size: 14px;
+                    font-family: "RubikMedium";
+                    margin-top: 3px;
+                    margin-bottom: 5px;
+                    color: black;
+                }
+                .address {
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    font-family: "Rubik";
+                    font-size: 10px;
+                }
+                .timeSpan {
+                    font-size: 12px;
+                    margin: 0;
+                    span {
+                        font-family: "RubikMedium";
+                    }
+                }
+            }
+            .progress {
+                width: 100%;
+                position: absolute;
+                bottom: 0px;
+                z-index: 1000;
+                .progressBar {
+                    width: 56%;
+                    border: solid 2px #98D8F3;
+                    border-radius: 20px;
+                    background-color: #98D8F3;
+                }
+            }
+        }
+    }
+}

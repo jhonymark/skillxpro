@@ -1,0 +1,80 @@
+.container {
+    .header {
+        padding: 16px;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+    }
+    .bodyContainer {
+        padding: 8px;
+        .topicHeading {
+            font-family: "RubikMedium";
+            font-size: 16px;
+            color: #1c1c1c;
+        }
+        .bottomCards {
+            display: flex;
+            flex-wrap: wrap;
+            .bottomCard {
+                display: flex;
+                justify-content: flex-start;
+                padding: 8px;
+                margin: 0px;
+                width: fit-content;
+                margin-bottom: 10px;
+                .image {
+                    margin-right: 8px;
+                    width: 120px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .cardContent {
+                    display: flex;
+                    flex-direction: column;
+                    background-color: white;
+                    p {
+                        margin: 0;
+                    }
+                    .contentBg {
+                        background-color: #ECEBFC;
+                        width: fit-content;
+                        padding: 5px 15px;
+                        border-radius: 20px;
+                        font-size: 10px;
+                        font-family: "RubikMedium";
+                    }
+                    .title {
+                        font-size: 14px;
+                        font-family: "RubikMedium";
+                        margin-top: 3px;
+                        margin-bottom: 5px;
+                        color: black;
+                    }
+                    .address {
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                        font-family: "Rubik";
+                        font-size: 10px;
+                    }
+                }
+                .progress {
+                    width: 100%;
+                    .progressBar {
+                        width: 56%;
+                        border: solid 2px #98D8F3;
+                        border-radius: 20px;
+                        background-color: #98D8F3;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .bottomCard {
+        margin-right: 10px;
+    }
+}

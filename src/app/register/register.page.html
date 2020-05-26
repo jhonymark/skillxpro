@@ -1,0 +1,25 @@
+<ion-content>
+    <div class="container">
+        <img class="homeBg" src="../../assets/homeBg.svg">
+
+
+        <ion-card>
+            <p class="login">Register</p>
+            <ion-button class="btnOutline" fill="outline"><img src="../../assets/icon/google.svg"> Continue with Google </ion-button>
+            <p class="orTag">OR</p>
+            <ion-input placeholder="Email"></ion-input>
+            <ion-input placeholder="Password"></ion-input>
+            <ion-input placeholder="Re-Type Password"></ion-input>
+            <div class="rememberForgot">
+                <div class="rememberBlock">
+                    <ion-checkbox checked="true"></ion-checkbox>
+                    <p>I have read and accepted the Guidlines and Terms of Service</p>
+                </div>
+
+            </div>
+            <ion-button class="register">Register</ion-button>
+
+            <p class="signup">Already a user? <span [routerLink]="['/login']">Login</span> here</p>
+        </ion-card>
+    </div>
+</ion-content>

@@ -1,0 +1,47 @@
+.header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    .topicHeading {
+        font-family: "SourceSansBold";
+        font-size: 24px;
+        color: #1c1c1c;
+        margin: 0;
+    }
+}
+
+.bodyContainer {
+    .image {
+        display: block;
+        margin: 0 auto;
+        width: 75%;
+        margin-top: 75px;
+        img {
+            max-width: none;
+            width: 100%;
+        }
+    }
+    .content {
+        text-align: center;
+        color: #1c1c1c;
+        font-size: 16px;
+        margin-top: 20px;
+        letter-spacing: 0.32px;
+    }
+    ion-button {
+        --border-width: 2px;
+        --border-color: #1c1c1c;
+        --color: #1c1c1c;
+        --padding-start: 12px;
+        --padding-end: 12px;
+        --padding-top: 15px;
+        --padding-bottom: 15px;
+        display: block;
+        margin: 0 auto;
+        width: fit-content;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-family: "RubikMedium";
+    }
+}
